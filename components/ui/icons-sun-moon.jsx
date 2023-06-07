@@ -2,8 +2,8 @@
 export const MoonIcon = ({ className, ...rest }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2em"
-        height="2em"
+        width="1.8em"
+        height="1.8em"
         viewBox="0 0 24 24"
         {...rest}
         className={`${className}`}
@@ -182,8 +182,8 @@ export const MoonIcon = ({ className, ...rest }) => (
 export const SunIcon = ({ className, ...rest }) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="2em"
-        height="2em"
+        width="1.8em"
+        height="1.8em"
         viewBox="0 0 24 24"
         {...rest}
         className={` ${className}`}
