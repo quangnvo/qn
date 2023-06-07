@@ -88,7 +88,7 @@ export default function Home() {
 
 	const renderSkillCard = (skill: any, index: any) => {
 		const SkillIcon = skill.skillComponent
-		return <Card className="dark:bg-dark dark:border-gray-700" key={index}>
+		return <Card className="bg-light-50 border-gray-400 dark:bg-dark dark:border-gray-700" key={index}>
 			<CardHeader className="flex flex-col justify-center items-center">
 				<div className="w-10 h-10 md:w-16 md:h-16">
 					<SkillIcon className="" />
@@ -105,14 +105,14 @@ export default function Home() {
 				{/* ---------- Section intro ---------- */}
 				<section className="relative flex h-[calc(100vh-72px)] items-center justify-center py-28">
 
-					<div className="absolute inset-0 z-0">
+					{/* <div className="absolute inset-0 z-0">
 						<div className="absolute left-1/4 overflow-visible">
 							<div className="animate-pulse-slower absolute h-[460px] w-[460px] -translate-x-1/4 rounded-full bg-teal-50/60 mix-blend-multiply blur-3xl filter dark:bg-teal-800/10" />
 						</div>
 						<div className="absolute left-3/4 overflow-visible">
 							<div className="animate-pulse-slower absolute top-20 left-3/4 h-[612px] w-[612px] -translate-x-2/3 rounded-full bg-indigo-100/40 mix-blend-multiply blur-3xl filter dark:bg-indigo-900/20" />
 						</div>
-					</div>
+					</div> */}
 
 
 					<div className="relative z-10 -mt-14 flex flex-col items-center justify-between gap-5">
@@ -138,7 +138,7 @@ export default function Home() {
 
 							{/* Button projects */}
 							<Link href="/projects">
-								<button className='mt-5 text-base md:text-md animate__animated animate__fadeInLeft shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-800 bg-light hover:bg-gray-200 dark:text-black'>
+								<button className='mt-5 text-base md:text-md animate__animated animate__fadeInLeft shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-600 bg-light hover:bg-gray-200'>
 									View my projects
 								</button>
 							</Link>

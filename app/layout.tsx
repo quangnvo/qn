@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} dark:bg-dark`}>
+      <body className={`${inter.className} bg-light-50 dark:bg-dark`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NavBar />
           {children}
