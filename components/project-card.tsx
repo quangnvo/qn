@@ -21,7 +21,7 @@ export default function createProjectCard({ title, description, techStack, link,
 
                 {/* Project Information */}
                 <div className="col-span-6 flex justify-center items-center ">
-                    <div className="w-11/12">
+                    <div className="w-full md:w-11/12">
 
                         {/* Title */}
                         <h3 className="font-semibold text-xl md:text-3xl mb-0">
