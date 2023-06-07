@@ -22,23 +22,23 @@ export default function Footer() {
 							{/* Right side */}
 							<div className="flex mb-10 md:mb-0">
 
-								<Link href="https://github.com/quangnvo">
-									<Button variant="ghost">
+								<a href="https://github.com/quangnvo" target="_blank">
+									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
 										<Github />
 									</Button>
-								</Link>
+								</a>
 
-								<Link href="https://www.linkedin.com/in/quangnguyen0528/">
-									<Button variant="ghost">
+								<a href="https://www.linkedin.com/in/quangnguyen0528/" target="_blank">
+									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
 										<Linkedin />
 									</Button>
-								</Link>
+								</a>
 
-								<Link href="https://twitter.com/quangvonguyen">
-									<Button variant="ghost">
+								<a href="https://twitter.com/quangvonguyen" target="_blank">
+									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
 										<Twitter size={25} />
 									</Button>
-								</Link>
+								</a>
 							</div>
 						</div>
 
