@@ -114,9 +114,20 @@ export default function Home() {
 						</div>
 					</div> */}
 
+					{/* Background grid */}
+					<div className="absolute inset-x-0 top-0 h-96 rotate-180 text-gray-500/20 opacity-60 [mask-image:linear-gradient(to_bottom,transparent,white)]">
+						<svg className="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">
+							<defs>
+								<pattern id="grid-pattern" width={32} height={32} patternUnits="userSpaceOnUse" x="50%" y="100%" patternTransform="translate(0 -1)">
+									<path d="M0 32V.5H32" fill="none" stroke="currentColor" /></pattern>
+							</defs>
+							<rect width="100%" height="100%" fill="url(#grid-pattern)" />
+						</svg>
+					</div>
 
+
+					{/* Text */}
 					<div className="relative z-10 -mt-14 flex flex-col items-center justify-between gap-5">
-
 						<div className="flex flex-col items-center gap-2 text-center">
 							{/* Title */}
 							<h1 className="scroll-m-20 text-4xl font-bold tracking-tight md:text-7xl animate__animated animate__fadeInLeft">
@@ -128,7 +139,7 @@ export default function Home() {
 
 							{/* Text */}
 							<div className="text-lg md:text-2xl mt-5 animate__animated animate__fadeInLeft" style={{ lineHeight: '35px' }}>
-								<p className='my-4'>
+								<p className='my-4 font-semibold'>
 									Front-end developer
 								</p>
 								<p className='my-4 text-base md:text-xl'>
@@ -210,7 +221,12 @@ export default function Home() {
 					<Accordion type="single" collapsible className="w-full text-left">
 
 						<AccordionItem value="item-1">
-							<AccordionTrigger className="text-left">What are Quang's plans in a short-term and a long-term?</AccordionTrigger>
+							<AccordionTrigger>
+								<p className="w-10/12 text-left">
+									What are Quang's plans in a short-term and a long-term?
+								</p>
+
+							</AccordionTrigger>
 							<AccordionContent>
 								aaaaaa
 							</AccordionContent>
