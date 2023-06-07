@@ -90,7 +90,7 @@ export default function Home() {
 		const SkillIcon = skill.skillComponent
 		return <Card className="dark:bg-dark dark:border-gray-700" key={index}>
 			<CardHeader className="flex flex-col justify-center items-center">
-				<div className="w-14 h-14 md:w-16 md:h-16">
+				<div className="w-10 h-10 md:w-16 md:h-16">
 					<SkillIcon className="" />
 				</div>
 				<CardDescription>{skill.skillName}</CardDescription>
@@ -138,7 +138,7 @@ export default function Home() {
 
 							{/* Button projects */}
 							<Link href="/projects">
-								<button className='mt-5 text-base md:text-md animate__animated animate__fadeInLeft shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-800 bg-yellow-200 hover:bg-yellow-300 dark:text-black'>
+								<button className='mt-5 text-base md:text-md animate__animated animate__fadeInLeft shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-800 bg-light hover:bg-gray-200 dark:text-black'>
 									View my projects
 								</button>
 							</Link>
@@ -189,7 +189,7 @@ export default function Home() {
 					</h2>
 
 					{/* Skill list */}
-					<div className="w-full grid grid-cols-3 gap-8 md:grid-cols-6">
+					<div className="w-full grid grid-cols-3 gap-4 md:grid-cols-6">
 						{listSkill.map((skill, index) => {
 							return renderSkillCard(skill, index)
 						})}
