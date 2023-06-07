@@ -43,7 +43,7 @@ export default function createProjectCard({ title, description, techStack, link,
                             <a href={link} target="_blank" rel="noopener noreferrer" >
                                 <Button className='flex justify-center items-center gap-2'>
                                     <span>View website</span>
-                                    <ExternalLink className='dark:text-blue-gray-800'/>
+                                    <ExternalLink className='dark:text-blue-gray-800' />
                                 </Button>
                             </a>
                         </div>
