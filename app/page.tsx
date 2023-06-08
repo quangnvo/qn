@@ -148,12 +148,14 @@ export default function Home() {
 							</div>
 
 							{/* Button projects */}
-							<Link href="/projects">
-								<button className='mt-5 text-base md:text-md animate__animated animate__fadeInLeft shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-600 bg-light hover:bg-gray-200'>
-									View my projects
-								</button>
-							</Link>
-
+							<div className="relative mt-5 animate__animated animate__fadeInLeft group">
+								<div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-300 to-orange-400 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-400"></div>
+								<Link href="/projects">
+									<button className='relative text-base md:text-md  shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-600 bg-light hover:bg-gray-200 dark:hover:bg-black bg-light-50 dark:bg-dark'>
+										View my projects
+									</button>
+								</Link>
+							</div>
 
 						</div>
 					</div>
@@ -170,7 +172,7 @@ export default function Home() {
 								About me
 							</h2>
 							{/* Text */}
-							<div className="text-base md:text-lg mt-5 md:w-11/12" style={{ lineHeight: '35px' }}>
+							<div className="text-base md:text-lg mt-5 lg:w-11/12" style={{ lineHeight: '35px' }}>
 								<p className='my-4 text-justify'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>
@@ -179,7 +181,7 @@ export default function Home() {
 					</div>
 
 
-					<div className="col-span-5 flex items-center justify-start">
+					<div className=" col-span-5 flex items-center justify-start">
 						<Image
 							src="/images/profile-picture.png"
 							alt='profile picture'
@@ -187,6 +189,7 @@ export default function Home() {
 							height={500}
 						/>
 					</div>
+
 				</section>
 				{/* ---------- End section about */}
 

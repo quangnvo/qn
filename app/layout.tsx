@@ -6,7 +6,9 @@ import NavBar from '@/components/main-nav'
 import { ThemeProvider } from '@/components/theme-provider';
 
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: "Quang | Front-end developer",
@@ -20,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-light-50 dark:bg-dark`}>
+      <body className={`${inter.className} bg-light-50 dark:bg-dark font-inter`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NavBar />
           {children}
