@@ -28,6 +28,7 @@ import {
 	SassIcon,
 	GitIcon
 } from "@/components/ui/icons-skill"
+import { Button } from "@/components/ui/button"
 
 const listSkill = [
 	{
@@ -174,7 +175,11 @@ export default function Home() {
 							{/* Text */}
 							<div className="text-base md:text-lg mt-5 lg:w-11/12" style={{ lineHeight: '35px' }}>
 								<p className='my-4 text-justify'>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									Hey there! I'm Quang, a passionate learner currently embarking on an exciting career transition from biotechnology to front-end development. With a love for coding, I am immersing myself in the world of web development, particularly focusing on front-end technologies like React and Next.js. As I dive deeper into front-end development, I am captivated by the ability to bring designs to life, create intuitive user interfaces, and craft engaging web experiences.
+								</p>
+
+								<p className='my-4 text-justify'>
+									Through my <a href="/"><Button variant="default">Blogs</Button></a>, I aim to share my journey of transitioning from biotechnology to front-end development. Whether you're a fellow learner or considering a career change like mine, my blog will provide valuable information and practical advice to help you kick-start your own journey in front-end development. Together, we'll explore the fundamentals, tackle challenges, and celebrate milestones as we grow as developers.
 								</p>
 							</div>
 						</div>
@@ -225,27 +230,39 @@ export default function Home() {
 
 						<AccordionItem value="item-1">
 							<AccordionTrigger>
-								<p className="w-10/12 text-left">
+								<p className="w-10/12 text-left text-lg md:text-xl">
 									What are Quang's plans in a short-term and a long-term?
 								</p>
 
 							</AccordionTrigger>
-							<AccordionContent>
-								aaaaaa
+							<AccordionContent className="text-justify text-base md:text-lg px-6 rounded-md shadow-md border border-gray-400">
+								<p className="my-4">
+									In the short term, my focus is on mastering React and Next.js. By building small React applications, I will gain practical experience and reinforce my knowledge. Additionally, I will explore Next.js and its features, including server-side rendering and routing.
+								</p>
+								<p className="">
+									In the long term, I aim to become a full-stack developer capable of creating useful and beautiful websites. I will explore backend development using technologies like Node.js and Express.js, enabling me to build server-side functionality and API endpoints. Understanding database integration will be crucial, and I will delve into databases like MongoDB. Additionally, I will continuously learn and explore advanced concepts in React, authentication and authorization, web performance optimization, and deployment practices to ensure that I can develop robust and scalable applications.
+								</p>
 							</AccordionContent>
 						</AccordionItem>
 
 						<AccordionItem value="item-2">
-							<AccordionTrigger>How old is Quang?</AccordionTrigger>
-							<AccordionContent>
-								bbbb
+							<AccordionTrigger>
+								<p className="w-10/12 text-left text-lg md:text-xl">
+									How old is Quang?
+								</p>
+
+							</AccordionTrigger>
+							<AccordionContent className="text-justify text-base md:text-lg px-6 rounded-md shadow-md border border-gray-400">
+								<p className="mt-4">
+									I was born in 1993, so now I'm 30 years old.
+								</p>
 							</AccordionContent>
 						</AccordionItem>
 
 					</Accordion>
 				</section>
 				{/* ---------- End section FAQs ---------- */}
-			</div>
-		</main>
+			</div >
+		</main >
 	)
 }
