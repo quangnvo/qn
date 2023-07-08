@@ -1,5 +1,3 @@
-
-
 export default function Blogs() {
     return (
         <section id="blogs" className='py-20'>
@@ -10,7 +8,10 @@ export default function Blogs() {
                     Blogs
                 </h1>
 
-       
+                <p className="font-bold">Coming soon !</p>
+
+                <div style={{ height: "450px" }}></div>
+
             </div>
         </section>
     )

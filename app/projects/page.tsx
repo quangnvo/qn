@@ -13,7 +13,7 @@ export default function Projects() {
                 {/* Render project cards*/}
                 {createProjectCard({
                     title: "Vienr Food",
-                    description: "aaaaaaa",
+                    description: "HACCP, TACCP, VACCP",
                     techStack: ["nextjs", "tailwindcss"],
                     link: "https://vienr-food.vercel.app/",
                     featureImageLink: "/images/projects/vienr-food.png"
