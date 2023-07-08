@@ -235,7 +235,7 @@ export default function Home() {
 								</p>
 
 							</AccordionTrigger>
-							<AccordionContent className="text-justify text-base md:text-lg px-6 rounded-md shadow-md border border-gray-400">
+							<AccordionContent className="text-base md:text-lg px-6 rounded-md shadow-md border border-gray-400">
 								<p className="my-4">
 									In the short term, my focus is on mastering React and Next.js. By building small React applications, I will gain practical experience and reinforce my knowledge. Additionally, I will explore Next.js and its features, including server-side rendering and routing.
 								</p>
