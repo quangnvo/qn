@@ -179,7 +179,7 @@ export default function Home() {
 								</p>
 
 								<p className='my-4'>
-									Through my <a href="/"><Button variant="default">Blogs</Button></a>, I aim to share my journey of transitioning from biotechnology to front-end development. Whether you're a fellow learner or considering a career change like mine, my blog will provide valuable information and practical advice to help you kick-start your own journey in front-end development. Together, we'll explore the fundamentals, tackle challenges, and celebrate milestones as we grow as developers.
+									Through my <a href="/blogs"><Button variant="default">Blogs</Button></a>, I aim to share my journey of transitioning from biotechnology to front-end development. Whether you're a fellow learner or considering a career change like mine, my blog will provide valuable information and practical advice to help you kick-start your own journey in front-end development. Together, we'll explore the fundamentals, tackle challenges, and celebrate milestones as we grow as developers.
 								</p>
 							</div>
 						</div>
