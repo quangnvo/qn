@@ -245,20 +245,6 @@ export default function Home() {
 							</AccordionContent>
 						</AccordionItem>
 
-						<AccordionItem value="item-2">
-							<AccordionTrigger>
-								<p className="w-10/12 text-left text-lg md:text-xl">
-									How old is Quang?
-								</p>
-
-							</AccordionTrigger>
-							<AccordionContent className="text-justify text-base md:text-lg px-6 rounded-md shadow-md border border-gray-400">
-								<p className="mt-4">
-									I was born in 1993, so now I'm 30 years old.
-								</p>
-							</AccordionContent>
-						</AccordionItem>
-
 					</Accordion>
 				</section>
 				{/* ---------- End section FAQs ---------- */}
