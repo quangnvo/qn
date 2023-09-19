@@ -178,9 +178,9 @@ export default function Home() {
 									Hey there! I'm Quang, a passionate learner currently embarking on an exciting career transition from biotechnology to front-end development. With a love for coding, I am immersing myself in the world of web development, particularly focusing on front-end technologies like React and Next.js. As I dive deeper into front-end development, I am captivated by the ability to bring designs to life, create intuitive user interfaces, and craft engaging web experiences.
 								</p>
 
-								<p className='my-4'>
+								{/* <p className='my-4'>
 									Through my <a href="/blogs"><Button variant="default">Blogs</Button></a>, I aim to share my journey of transitioning from biotechnology to front-end development. Whether you're a fellow learner or considering a career change like mine, my blog will provide valuable information and practical advice to help you kick-start your own journey in front-end development. Together, we'll explore the fundamentals, tackle challenges, and celebrate milestones as we grow as developers.
-								</p>
+								</p> */}
 							</div>
 						</div>
 					</div>

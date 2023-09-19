@@ -5,10 +5,20 @@ import { ExternalLink } from 'lucide-react';
 
 interface ProjectProps {
     title: string,
-    description: string,
+    description?: string,
     techStack: string[],
     link: string,
     featureImageLink: string
+}
+
+const techStackRender = (techStack: string[]) => {
+    return techStack.map((tech, index) => {
+        return (
+            <span key={index} className='font-semibold border border-blue-gray-100 px-3 py-2 rounded-sm mr-3'>
+                {tech}
+            </span>
+        )
+    })
 }
 
 export default function createProjectCard({ title, description, techStack, link, featureImageLink }: ProjectProps) {
@@ -35,7 +45,8 @@ export default function createProjectCard({ title, description, techStack, link,
 
                         {/* Tech */}
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
-                            NextJS Tailwind
+                            {techStackRender(techStack)}
+
                         </p>
 
                         {/* Button view website */}
