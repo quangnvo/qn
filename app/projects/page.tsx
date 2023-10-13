@@ -16,7 +16,7 @@ export default function Projects() {
                     // description: "HACCP, TACCP, VACCP",
                     techStack: ["Next.js", "TailwindCSS"],
                     link: "https://vienr-food.vercel.app/",
-                    featureImageLink: "/images/projects/vienr-food.png"
+                    featureImageLink: "/images/projects/vienrfood.png"
                 })}
             </div>
         </section>
