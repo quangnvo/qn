@@ -240,7 +240,7 @@ export default function Home() {
 									In the short term, my focus is on mastering React and Next.js. By building small React applications, I will gain practical experience and reinforce my knowledge. Additionally, I will explore Next.js and its features, including server-side rendering and routing.
 								</p>
 								<p className="">
-									In the long term, I aim to become a full-stack developer capable of creating useful and beautiful websites. I will explore backend development using technologies like Node.js and Express.js, enabling me to build server-side functionality and API endpoints. Understanding database integration will be crucial, and I will delve into databases like MongoDB. Additionally, I will continuously learn and explore advanced concepts in React, authentication and authorization, web performance optimization, and deployment practices to ensure that I can develop robust and scalable applications.
+									In the long term, I aim to become a full-stack developer capable of creating useful and beautiful websites. I will explore backend development using technologies like Node.js and Express.js, enabling me to build server-side functionality and API endpoints. Understanding database integration will be crucial, and I will delve into databases like MongoDB.
 								</p>
 							</AccordionContent>
 						</AccordionItem>
