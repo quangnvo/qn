@@ -14,7 +14,7 @@ interface ProjectProps {
 const techStackRender = (techStack: string[]) => {
     return techStack.map((tech, index) => {
         return (
-            <span key={index} className='font-semibold border border-blue-gray-100 px-3 py-2 rounded-sm mr-3'>
+            <span key={index} className='font-medium border border-blue-gray-100 px-3 py-2 rounded-sm mr-3'>
                 {tech}
             </span>
         )
