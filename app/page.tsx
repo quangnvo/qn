@@ -175,9 +175,14 @@ export default function Home() {
 							{/* Text */}
 							<div className="text-base md:text-lg mt-5 lg:w-11/12" style={{ lineHeight: '35px' }}>
 								<p className='my-4'>
-									Hey there! I'm Quang, a passionate learner currently embarking on an exciting career transition from biotechnology to front-end development. With a love for coding, I am immersing myself in the world of web development, particularly focusing on front-end technologies like React and Next.js. As I dive deeper into front-end development, I am captivated by the ability to bring designs to life, create intuitive user interfaces, and craft engaging web experiences.
+									Hey there 👋!
 								</p>
-
+								<p className='my-4'>
+									I'm Quang, a passionate learner currently embarking on an exciting career transition from biotechnology to front-end development, particularly focusing on React and Next.js.
+								</p>
+								<p className='my-4'>
+									As I dive deeper into front-end development, I am captivated by the ability to bring designs to life, create intuitive user interfaces, and craft engaging web experiences.
+								</p>
 								{/* <p className='my-4'>
 									Through my <a href="/blogs"><Button variant="default">Blogs</Button></a>, I aim to share my journey of transitioning from biotechnology to front-end development. Whether you're a fellow learner or considering a career change like mine, my blog will provide valuable information and practical advice to help you kick-start your own journey in front-end development. Together, we'll explore the fundamentals, tackle challenges, and celebrate milestones as we grow as developers.
 								</p> */}
@@ -218,14 +223,12 @@ export default function Home() {
 
 
 				{/* ---------- Section FAQs ---------- */}
-				<section id="faqs" className="mt-14 mb-20 md:my-32">
+				{/* <section id="faqs" className="mt-14 mb-20 md:my-32">
 
-					{/* Title */}
 					<h2 className="text-center md:text-left scroll-m-20 text-3xl md:text-4xl font-bold tracking-tight mb-10">
 						FAQs about Quang
 					</h2>
 
-					{/* FAQs */}
 					<Accordion type="single" collapsible className="w-full text-left">
 
 						<AccordionItem value="item-1">
@@ -246,7 +249,7 @@ export default function Home() {
 						</AccordionItem>
 
 					</Accordion>
-				</section>
+				</section> */}
 				{/* ---------- End section FAQs ---------- */}
 			</div >
 		</main >
