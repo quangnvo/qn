@@ -28,7 +28,7 @@ export default function createProjectCard({ title, description, techStack, link,
         <div
             className="w-full p-6 my-10 rounded-xl border border-gray-300 shadow-sm flex items-center"
         >
-            <div className="grid grid-cols-1 md:grid-cols-12 ">
+            <div className="grid grid-cols-1 lg:grid-cols-12 ">
 
                 {/* Project Information */}
                 <div className="col-span-5 flex justify-center items-center ">
@@ -50,7 +50,7 @@ export default function createProjectCard({ title, description, techStack, link,
 
                         </p>
 
-                        {/* Button view website */}
+                        {/* Button view website and github*/}
                         <div className='mb-5 mt-7 flex gap-0'>
                             <div>
                                 <a href={link} target="_blank" rel="noopener noreferrer" >
