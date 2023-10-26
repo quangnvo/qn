@@ -63,7 +63,7 @@ export default function createProjectCard({ title, description, techStack, link,
                                 <a href={githubLink} target="_blank" rel="noopener noreferrer" >
                                     <Button variant={"ghost"} className='flex justify-center items-center gap-2'>
                                         <span>Github</span>
-                                        <Github className='dark:text-blue-gray-800' />
+                                        <Github className='dark:text-blue-gray-200' />
                                     </Button>
                                 </a>
                             </div>
