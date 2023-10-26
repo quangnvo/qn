@@ -30,7 +30,7 @@ export default function createProjectCard({ title, description, techStack, link,
             <div className="grid grid-cols-1 md:grid-cols-12 ">
 
                 {/* Project Information */}
-                <div className="col-span-6 flex justify-center items-center ">
+                <div className="col-span-5 flex justify-center items-center ">
                     <div className="w-full md:w-11/12">
 
                         {/* Title */}
@@ -62,13 +62,13 @@ export default function createProjectCard({ title, description, techStack, link,
                 </div>
 
                 {/* Project Feature Image */}
-                <div className="col-span-6 mt-4 md:mt-0">
+                <div className="col-span-7 mt-4 md:mt-0">
                     <div className='w-full flex justify-end items-center border border-gray-500 rounded-lg overflow-hidden'>
                         <Image
                             src={featureImageLink}
                             alt='project picture'
-                            width={1000}
-                            height={500}
+                            width={800}
+                            height={600}
                             className='object-fill'
                         />
                     </div>

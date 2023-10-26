@@ -12,11 +12,19 @@ export default function Projects() {
 
                 {/* Render project cards*/}
                 {createProjectCard({
+                    title: "Vietwander",
+                    // description: "HACCP, TACCP, VACCP",
+                    techStack: ["Next.js", "TailwindCSS"],
+                    link: "https://vietwander.vercel.app/",
+                    featureImageLink: "/images/projects/vietwander.png"
+                })}
+
+                {createProjectCard({
                     title: "Vienr Food",
                     // description: "HACCP, TACCP, VACCP",
                     techStack: ["Next.js", "TailwindCSS"],
                     link: "https://vienr-food.vercel.app/",
-                    featureImageLink: "/images/projects/vienrfood.png"
+                    featureImageLink: "/images/projects/vienr.png"
                 })}
             </div>
         </section>

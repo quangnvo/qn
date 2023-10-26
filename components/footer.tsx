@@ -43,7 +43,7 @@ export default function Footer() {
 						</div>
 
 						<div className="text-center flex justify-center items-center ">
-							<p>© 2023 Quang Nguyen. All Rights Reserved.</p>
+							<p>© 2024 Quang Nguyen. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
