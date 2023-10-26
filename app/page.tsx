@@ -104,14 +104,14 @@ export default function Home() {
 			<div className='container py-5'>
 
 				{/* ---------- Section intro ---------- */}
-				<section className="relative flex h-[calc(100vh-72px)] items-center justify-center py-28 mt-0 md:mt-20 lg:mt-0">
+				<section className="relative flex h-[calc(100vh-72px)] items-center justify-center py-28 mt-0 md:mt-24 lg:mt-0">
 
 					{/* Text */}
 					<div className="relative z-10 -mt-14 flex flex-col items-center justify-between gap-5">
 						<div className="flex flex-col items-center gap-2 text-center">
 
 							{/* Title */}
-							<h1 className="scroll-m-20 text-4xl font-bold tracking-tight md:text-7xl animate__animated animate__fadeInLeft">
+							<h1 className="scroll-m-20 text-4xl font-bold tracking-tight md:text-5xl lg:text-7xl animate__animated animate__fadeInLeft">
 								<span className="mr-3">Hi, I'm</span>
 								<span className="text-yellow-300 font-outline">
 									Quang
