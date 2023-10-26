@@ -47,11 +47,10 @@ export default function createProjectCard({ title, description, techStack, link,
                         {/* Tech */}
                         <p className="leading-7 [&:not(:first-child)]:mt-6">
                             {techStackRender(techStack)}
-
                         </p>
 
                         {/* Button view website and github*/}
-                        <div className='mb-5 mt-7 flex gap-0'>
+                        <div className='my-7 flex gap-0'>
                             <div>
                                 <a href={link} target="_blank" rel="noopener noreferrer" >
                                     <Button className='flex justify-center items-center gap-2'>
