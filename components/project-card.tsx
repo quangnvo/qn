@@ -74,7 +74,7 @@ export default function createProjectCard({ title, description, techStack, link,
                 </div>
 
                 {/* Project Feature Image */}
-                <div className="col-span-7 mt-4 md:mt-0">
+                <div className="col-span-7">
                     <div className='w-full flex justify-end items-center border border-gray-500 rounded-lg overflow-hidden'>
                         <Image
                             src={featureImageLink}
