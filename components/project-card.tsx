@@ -1,14 +1,15 @@
 import Image from 'next/image';
 import { Button } from './ui/button';
 import Link from 'next/link';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 interface ProjectProps {
     title: string,
     description?: string,
     techStack: string[],
     link: string,
-    featureImageLink: string
+    featureImageLink: string,
+    githubLink: string
 }
 
 const techStackRender = (techStack: string[]) => {
@@ -21,7 +22,7 @@ const techStackRender = (techStack: string[]) => {
     })
 }
 
-export default function createProjectCard({ title, description, techStack, link, featureImageLink }: ProjectProps) {
+export default function createProjectCard({ title, description, techStack, link, featureImageLink, githubLink }: ProjectProps) {
 
     return (
         <div
@@ -50,14 +51,26 @@ export default function createProjectCard({ title, description, techStack, link,
                         </p>
 
                         {/* Button view website */}
-                        <div className='mb-5 mt-7'>
-                            <a href={link} target="_blank" rel="noopener noreferrer" >
-                                <Button className='flex justify-center items-center gap-2'>
-                                    <span>View website</span>
-                                    <ExternalLink className='dark:text-blue-gray-800' />
-                                </Button>
-                            </a>
+                        <div className='mb-5 mt-7 flex gap-0'>
+                            <div>
+                                <a href={link} target="_blank" rel="noopener noreferrer" >
+                                    <Button className='flex justify-center items-center gap-2'>
+                                        <span>View website</span>
+                                        <ExternalLink className='dark:text-blue-gray-800' />
+                                    </Button>
+                                </a>
+                            </div>
+                            <div>
+                                <a href={githubLink} target="_blank" rel="noopener noreferrer" >
+                                    <Button variant={"ghost"} className='flex justify-center items-center gap-2'>
+                                        <span>Github</span>
+                                        <Github className='dark:text-blue-gray-800' />
+                                    </Button>
+                                </a>
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
 

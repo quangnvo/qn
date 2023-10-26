@@ -13,18 +13,18 @@ export default function Projects() {
                 {/* Render project cards*/}
                 {createProjectCard({
                     title: "Vietwander",
-                    // description: "HACCP, TACCP, VACCP",
                     techStack: ["Next.js", "TailwindCSS"],
                     link: "https://vietwander.vercel.app/",
-                    featureImageLink: "/images/projects/vietwander.png"
+                    featureImageLink: "/images/projects/vietwander.png",
+                    githubLink: "https://github.com/quangnvo/vietwander"
                 })}
 
                 {createProjectCard({
                     title: "Vienr Food",
-                    // description: "HACCP, TACCP, VACCP",
                     techStack: ["Next.js", "TailwindCSS"],
                     link: "https://vienr-food.vercel.app/",
-                    featureImageLink: "/images/projects/vienr.png"
+                    featureImageLink: "/images/projects/vienr.png",
+                    githubLink: "https://github.com/quangnvo/vienr-project"
                 })}
             </div>
         </section>
