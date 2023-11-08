@@ -114,7 +114,7 @@ export default function Home() {
 							<h1 className="scroll-m-20 text-4xl font-bold tracking-tight md:text-5xl lg:text-7xl animate__animated animate__fadeInLeft">
 								<span className="mr-3">Hi, I'm</span>
 								<span className="text-yellow-300 font-outline">
-									Quang
+									Ray
 								</span>
 							</h1>
 
@@ -160,7 +160,7 @@ export default function Home() {
 									Hey there 👋!
 								</p>
 								<p className='my-4'>
-									I'm Quang, a passionate learner currently embarking on an exciting career transition from biotechnology to front-end development, particularly focusing on React and Next.js.
+									I'm Ray, a passionate learner currently embarking on an exciting career transition from biotechnology to front-end development, particularly focusing on React and Next.js.
 								</p>
 								<p className='my-4'>
 									As I dive deeper into front-end development, I am captivated by the ability to bring designs to life, create intuitive user interfaces, and craft engaging web experiences.

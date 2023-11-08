@@ -34,16 +34,16 @@ export default function Footer() {
 									</Button>
 								</a>
 
-								<a href="https://twitter.com/quangvonguyen" target="_blank">
+								{/* <a href="https://twitter.com/quangvonguyen" target="_blank">
 									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
 										<Twitter size={25} />
 									</Button>
-								</a>
+								</a> */}
 							</div>
 						</div>
 
 						<div className="text-center flex justify-center items-center ">
-							<p>© 2024 Quang Nguyen. All Rights Reserved.</p>
+							<p>© 2024 Ray. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
