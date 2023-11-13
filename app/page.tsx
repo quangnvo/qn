@@ -121,7 +121,7 @@ export default function Home() {
 							{/* Text */}
 							<div className="text-lg md:text-2xl mt-5 animate__animated animate__fadeInLeft" style={{ lineHeight: '35px' }}>
 								<p className='my-4 font-semibold'>
-									Front-end developer
+									Web developer
 								</p>
 								<p className='my-4 text-base md:text-xl'>
 									I love designing and building websites with an elegant UX
@@ -160,7 +160,7 @@ export default function Home() {
 									Hey there 👋!
 								</p>
 								<p className='my-4'>
-									I'm Ray, a passionate learner currently embarking on an exciting career transition from biotechnology to front-end development, particularly focusing on React and Next.js.
+									I'm Ray, a passionate learner currently embarking on an exciting career transition from biotechnology to web development, particularly focusing on React and Next.js.
 								</p>
 								<p className='my-4'>
 									As I dive deeper into front-end development, I am captivated by the ability to bring designs to life, create intuitive user interfaces, and craft engaging web experiences.
