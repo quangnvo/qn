@@ -1,10 +1,12 @@
+"use client"
+
 import './../styles/globals.css'
 import 'animate.css';
 import { Inter } from 'next/font/google'
 import Footer from '@/components/footer'
 import NavBar from '@/components/main-nav'
 import { ThemeProvider } from '@/components/theme-provider';
-
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -23,11 +25,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.className} bg-light-50 dark:bg-dark font-inter`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <NavBar />
-          {children}
-          <Footer />
-        </ThemeProvider>
+        <ParallaxProvider>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <NavBar />
+            {children}
+            <Footer />
+          </ThemeProvider>
+        </ParallaxProvider>
       </body>
     </html>
   )

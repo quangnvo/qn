@@ -12,13 +12,13 @@ const BackToTop = () => {
 	return (
 		<section id="backtotop" className="my-8">
 			<div className='flex justify-end items-center'>
-				<Button
+				<p
 					id="backtotop"
 					onClick={scrollToTop}
-					variant="outline"
+					className="cursor-pointer text-sm font-semibold text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition duration-300"
 				>
 					Back to top 👆
-				</Button>
+				</p>
 			</div>
 		</section>
 	)
