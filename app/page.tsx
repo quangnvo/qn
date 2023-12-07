@@ -133,7 +133,7 @@ export default function Home() {
 								<div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-300 to-orange-400 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-400"></div>
 								<Link href="/projects">
 									<button className='relative text-base md:text-md  shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-600 bg-light hover:bg-gray-200 dark:hover:bg-black bg-light-50 dark:bg-dark'>
-										View my projects
+										View the websites that I've built 👨‍💻
 									</button>
 								</Link>
 							</div>
