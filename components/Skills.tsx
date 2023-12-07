@@ -93,7 +93,7 @@ const Skills = () => {
     }
 
     return (
-        <>
+        <section id="skills" className="mt-14 mb-20 md:my-32">
             {/* Title */}
             <h2 className="text-center md:text-left scroll-m-20 text-3xl md:text-4xl font-bold tracking-tight mb-10">
                 Skills
@@ -105,7 +105,7 @@ const Skills = () => {
                     return renderSkillCard(skill, index)
                 })}
             </div>
-        </>
+        </section>
     )
 }
 

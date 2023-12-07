@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const About = () => {
 	return (
-		<>
+		<section id='about' className="grid grid-cols-1 lg:grid-cols-12 mt-14 mb-20 md:my-32">
 			<div className="col-span-7 flex items-center justify-start">
 				<div className="w-full text-center md:text-left ">
 
@@ -36,7 +36,7 @@ const About = () => {
 					height={500}
 				/>
 			</div>
-		</>
+		</section>
 	)
 }
 
