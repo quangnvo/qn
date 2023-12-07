@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import BackToTop from "@/components/BackToTop"
 import {
 	Accordion,
 	AccordionContent,
@@ -230,6 +231,13 @@ export default function Home() {
 					</Accordion>
 				</section> */}
 				{/* ---------- End section FAQs ---------- */}
+
+				{/* ---------- Section Back to top ---------- */}
+				<section id="backtotop" className="my-8">
+					<BackToTop />
+				</section>
+				{/* ---------- End section Back to top ---------- */}
+
 			</div >
 		</main >
 	)
