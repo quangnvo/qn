@@ -42,7 +42,8 @@ export default function Footer() {
 							</div>
 						</div>
 
-						<div className="text-center flex justify-center items-center ">
+						<div className="text-center flex flex-col gap-2 justify-center items-center ">
+							<p>Build with 💓 by Ray</p>
 							<p>© 2024 Ray. All Rights Reserved.</p>
 						</div>
 					</div>
