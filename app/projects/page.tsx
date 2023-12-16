@@ -7,7 +7,7 @@ export default function Projects() {
 
                 {/* Title */}
                 <h1 className="scroll-m-20 text-4xl text-center md:text-left font-bold tracking-tight lg:text-5xl mt-7 mb-20">
-                    The websites I've built 🚀
+                    The websites I&apos;m ve built 🚀
                 </h1>
 
                 {/* Render project cards*/}

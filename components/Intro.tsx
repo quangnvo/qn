@@ -19,7 +19,7 @@ const Intro = () => {
 						{/* Title */}
 
 						<h1 className="scroll-m-20 text-4xl font-bold tracking-tight md:text-5xl lg:text-7xl">
-							<span className="mr-3">Hi, I'm</span>
+							<span className="mr-3">Hi, I&apos;m</span>
 							<span className="text-yellow-300 font-outline">
 								Ray
 							</span>
@@ -43,7 +43,7 @@ const Intro = () => {
 							<div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-300 to-orange-400 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-400"></div>
 							<Link href="/projects">
 								<button className='relative text-base md:text-md  shadow-md font-semibold px-6 py-3 rounded-lg border border-gray-600 bg-light hover:bg-gray-200 dark:hover:bg-black bg-light-50 dark:bg-dark'>
-									View the websites that I've built 👨‍💻
+									View the websites that I&apos;ve built 👨‍💻
 								</button>
 							</Link>
 						</div>

@@ -1,5 +1,4 @@
-import Link from "next/link"
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import { Button } from "./ui/button";
 import Logo from "./logo";
 
@@ -33,12 +32,6 @@ export default function Footer() {
 										<Linkedin />
 									</Button>
 								</a>
-
-								{/* <a href="https://twitter.com/quangvonguyen" target="_blank">
-									<Button variant="ghost" className="hover:bg-gray-200 dark:hover:bg-gray-700">
-										<Twitter size={25} />
-									</Button>
-								</a> */}
 							</div>
 						</div>
 

@@ -18,7 +18,7 @@ const About = () => {
 							Hey there 👋!
 						</p>
 						<p className='my-4'>
-							I'm Ray, a passionate learner currently embarking on an exciting career transition from biotechnology to web development, particularly focusing on React and Next.js.
+							I&apos;m Ray, a passionate learner currently embarking on an exciting career transition from biotechnology to web development, particularly focusing on React and Next.js.
 						</p>
 						<p className='my-4'>
 							As I dive deeper into front-end development, I am captivated by the ability to bring designs to life, create intuitive user interfaces, and craft engaging web experiences.
