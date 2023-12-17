@@ -8,7 +8,6 @@ import { usePathname } from 'next/navigation';
 import { ModeToggle } from "./mode-toggle";
 import Logo from "./logo";
 
-
 export default function NavBar() {
 
 	const [isNavbarMobileOpen, setIsNavbarMobileOpen] = useState(false)
@@ -49,7 +48,6 @@ export default function NavBar() {
 		<ul className="mb-4 mt-2 flex flex-col lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-1">
 			{renderNavbarButton({ name: "Home", path: "/" })}
 			{renderNavbarButton({ name: "Websites 👨‍💻", path: "/projects" })}
-			{/* {renderNavbarButton({ name: "Blogs", path: "/blogs" })} */}
 		</ul>
 	);
 
