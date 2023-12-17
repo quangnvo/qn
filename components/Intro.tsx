@@ -1,7 +1,6 @@
 import Link from "next/link"
 
 const Intro = () => {
-
 	return (
 		<section className="relative flex h-[calc(100vh-72px)] items-center justify-center py-28 mt-0 md:mt-24 lg:mt-0">
 
@@ -17,16 +16,12 @@ const Intro = () => {
 					<div className="flex flex-col items-center gap-2 text-center">
 
 						{/* Title */}
-
 						<h1 className="scroll-m-20 text-4xl font-bold tracking-tight md:text-5xl lg:text-7xl">
 							<span className="mr-3">Hi, I&apos;m</span>
 							<span className="text-yellow-300 font-outline">
 								Ray
 							</span>
 						</h1>
-
-
-
 
 						{/* Text */}
 						<div className="text-lg md:text-2xl mt-5 animate__animated animate__fadeInLeft" style={{ lineHeight: '35px' }}>
@@ -47,13 +42,9 @@ const Intro = () => {
 								</button>
 							</Link>
 						</div>
-
 					</div>
-
 				</div>
 			</div>
-
-
 		</section>
 	)
 }
