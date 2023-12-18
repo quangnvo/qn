@@ -25,9 +25,6 @@ const Intro = () => {
 
 						{/* Text */}
 						<div className="text-lg md:text-2xl mt-5 animate__animated animate__fadeInLeft" style={{ lineHeight: '35px' }}>
-							{/* <p className='my-4 font-semibold'>
-							Web developer
-						</p> */}
 							<p className='my-4 text-base md:text-xl'>
 								I love designing and building websites with an elegant UX
 							</p>
